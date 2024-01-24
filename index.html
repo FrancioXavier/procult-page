@@ -2,44 +2,68 @@
 <html lang="pt-Br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROCULT</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROCULT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    <script src="./assets/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg bg-primary mb-3 position-fixed z-3 w-100" style="height: 75px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">PROOCULT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#apresentação">Apresentação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contatos">Contatos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#organograma">Organograma</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid vh-100 position-relative" id="apresentação">
+    <div class="card w-50 mx-auto position-absolute top-50 start-50 translate-middle">
+      <div class="card-body">
+        <h2>Apresentação</h2>
+        <p>A Pró-Reitoria de Cultura (Procult/UFCA) foi concebida como um setor que trama a Cultura numa dimensão
+          estratégica e formadora da comunidade acadêmica, com a perspectiva de contribuir para a formação integral do
+          estudante universitário e da comunidade favorecida pela Instituição. A Procult/UFCA parte do princípio da
+          indissociabilidade entre o ensino, a pesquisa, a cultura e a extensão, promovendo a interação transformadora
+          entre o saber acadêmico e popular.
+
+          Assim, configura-se como setor por excelência, visando promover, estimular e reconhecer a Cultura como fator
+          fundamental ao desenvolvimento social, crítico e, principalmente, educacional na contemporaneidade.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mx-auto w-75 vh-100" id="organograma">
+    <div class="card">
+      <div class="card-body m-2">
+        <h2>Organograma</h2>
+        <img src="./assets/img/ORGANOGRAMA-Procult_Prancheta.png" alt="">
+      </div>
+    </div>
+  </div>
+  <script src="./assets/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
